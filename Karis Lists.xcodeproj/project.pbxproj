@@ -12,6 +12,9 @@
 		240CF09A21D15FF700E9A97C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240CF09821D15FF700E9A97C /* Main.storyboard */; };
 		240CF09C21D15FF800E9A97C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 240CF09B21D15FF800E9A97C /* Assets.xcassets */; };
 		240CF09F21D15FF800E9A97C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240CF09D21D15FF800E9A97C /* LaunchScreen.storyboard */; };
+		240CF0A721D16E4D00E9A97C /* AddFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240CF0A621D16E4D00E9A97C /* AddFoodViewController.swift */; };
+		240CF0A921D16E7500E9A97C /* WalmartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240CF0A821D16E7500E9A97C /* WalmartViewController.swift */; };
+		240CF0AB21D16E8300E9A97C /* AddSpecialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240CF0AA21D16E8300E9A97C /* AddSpecialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		240CF09B21D15FF800E9A97C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		240CF09E21D15FF800E9A97C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		240CF0A021D15FF800E9A97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		240CF0A621D16E4D00E9A97C /* AddFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodViewController.swift; sourceTree = "<group>"; };
+		240CF0A821D16E7500E9A97C /* WalmartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalmartViewController.swift; sourceTree = "<group>"; };
+		240CF0AA21D16E8300E9A97C /* AddSpecialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSpecialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,9 @@
 		240CF08821D15FF700E9A97C = {
 			isa = PBXGroup;
 			children = (
+				240CF0A621D16E4D00E9A97C /* AddFoodViewController.swift */,
+				240CF0A821D16E7500E9A97C /* WalmartViewController.swift */,
+				240CF0AA21D16E8300E9A97C /* AddSpecialViewController.swift */,
 				240CF09321D15FF700E9A97C /* Karis Lists */,
 				240CF09221D15FF700E9A97C /* Products */,
 			);
@@ -136,7 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				240CF09721D15FF700E9A97C /* ViewController.swift in Sources */,
+				240CF0A921D16E7500E9A97C /* WalmartViewController.swift in Sources */,
+				240CF0A721D16E4D00E9A97C /* AddFoodViewController.swift in Sources */,
 				240CF09521D15FF700E9A97C /* AppDelegate.swift in Sources */,
+				240CF0AB21D16E8300E9A97C /* AddSpecialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
